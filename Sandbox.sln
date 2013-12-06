@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Tests.Javascript.Unit", "Sandbox.Tests.Javascript.Unit\Sandbox.Tests.Javascript.Unit.csproj", "{E366DA93-4250-4745-A546-138D2243815C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Tests.Javascript.Integration", "Sandbox.Tests.Javascript.Integration\Sandbox.Tests.Javascript.Integration.csproj", "{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69DB697C-8C68-4A8C-9729-FD74ADB3DB68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5AE71830-30A5-4950-8064-935F3E32C7A1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.UI.Main", "Sandbox.UI.Main\Sandbox.UI.Main.csproj", "{C1EB7914-E389-44EC-9E51-BAE782A65412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E366DA93-4250-4745-A546-138D2243815C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E366DA93-4250-4745-A546-138D2243815C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E366DA93-4250-4745-A546-138D2243815C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E366DA93-4250-4745-A546-138D2243815C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EB7914-E389-44EC-9E51-BAE782A65412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EB7914-E389-44EC-9E51-BAE782A65412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EB7914-E389-44EC-9E51-BAE782A65412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EB7914-E389-44EC-9E51-BAE782A65412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB807FB3-91C3-45A6-A8EE-A85EF6CB9CED} = {69DB697C-8C68-4A8C-9729-FD74ADB3DB68}
+		{E366DA93-4250-4745-A546-138D2243815C} = {69DB697C-8C68-4A8C-9729-FD74ADB3DB68}
+	EndGlobalSection
+EndGlobal
