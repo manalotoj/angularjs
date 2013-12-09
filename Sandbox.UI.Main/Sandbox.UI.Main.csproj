@@ -15,7 +15,7 @@
     <AssemblyName>Sandbox.UI.Main</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -199,6 +199,13 @@
     <Content Include="App\Common\Services\bootstrapper.js" />
     <Content Include="App\Common\common.js" />
     <Content Include="App\Common\Filters\I18nFilter.js" />
+    <Content Include="App\Students\Controllers\studentDetailCtrl.js" />
+    <Content Include="App\Students\Controllers\studentListCtrl.js" />
+    <Content Include="App\Students\Partials\studentDetail.html" />
+    <Content Include="App\Students\Partials\studentList.html" />
+    <Content Include="App\Students\Routes\route.js" />
+    <Content Include="App\Students\Services\studentResource.js" />
+    <Content Include="App\Students\students.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -586,13 +593,9 @@
     <Folder Include="App\Institutions\Partials\" />
     <Folder Include="App\Institutions\Routes\" />
     <Folder Include="App\Institutions\Services\" />
-    <Folder Include="App\Students\Controllers\" />
     <Folder Include="App\Students\Directives\" />
     <Folder Include="App\Students\Filters\" />
     <Folder Include="App\Students\Models\" />
-    <Folder Include="App\Students\Partials\" />
-    <Folder Include="App\Students\Routes\" />
-    <Folder Include="App\Students\Services\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -616,7 +619,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2566</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:35146/</IISUrl>
+          <IISUrl>http://localhost/Sandbox.UI.Main</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

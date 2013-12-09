@@ -3,9 +3,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@Scripts.Render("~/bundles/files/scripts")
 @Scripts.Render("~/bundles/App/Common")
 @Scripts.Render("~/bundles/App/Students")
 
-<div>
+<div ng-app="sandbox">
     <div ng-view></div>
 </div>
