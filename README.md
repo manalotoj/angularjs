@@ -1,6 +1,6 @@
 # AngularJS Unit Testing #
 
-This document provides [AngularJS](http://angularjs.org/) unit testing examples. The samples are authored in Visual Studio (VS) 2013 and test angularjs and javascript code contained in an ASP.NET MVC project.
+This document provides [AngularJS](http://angularjs.org/) unit testing examples. The samples are authored in Visual Studio (VS) 2013 and test angularjs and javascript code contained in the standard, cookie-cutter ASP.NET MVC project. The stupid-simple AngularJS example can be viewed by navigating to http://localhost/sandbox.ui.main/students. The sample contains examples of routing, partials/templates, controllers, and services. These examples will eventually be extended.
 
 Tests are contained in a library project. The tests use Chutzpah as the test runner and Jasmine as the testing framework. Note that QUnit can be used instead of Jasmine. Tests will be created for the following AngularJS elements:
 
