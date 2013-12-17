@@ -43,6 +43,7 @@ describe("sandbox.route", function() {
     
     it('defines the correct controller for the "/:id" route.', function () {
         expect(route.routes['/:id'].controller).toBe('studentDetailCtrl');
+        console.log("hello word");
     });
     
     // test partials/templates.
