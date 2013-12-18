@@ -14,7 +14,8 @@ Note that the tests refer to stupid-simple AngularJS code contained within Sandb
 #Required Configuration/Software#
 
 - VS 2012/2013
-- [Chutzpah](http://chutzpah.codeplex.com/) - a javascript test runner that provides VS integration.
+- [Chutzpah Test Runner](http://chutzpah.codeplex.com/) - a javascript test runner that provides VS integration.
+- [Chutzpah Test Adapter for VS Test Explorer](http://visualstudiogallery.msdn.microsoft.com/f8741f04-bae4-4900-81c7-7c9bfb9ed1fe) - provides a context menu within VS to run Chutzpah.
 - [Jasmine](http://pivotal.github.io/jasmine/) - a BDD-style framework for testing JavaScript code.
 
 #Optional But Very Helpful Elements#
